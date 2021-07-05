@@ -158,7 +158,7 @@ DOCUMENTATION: |
                     source-address:
                       description:
                         - Ip source address to use for the filter
-                      type: str
+                      type: raw
                     source-prefix-list:
                       description:
                         - Ip source prefix list to use for the filter
@@ -241,6 +241,7 @@ DOCUMENTATION: |
                     destination-address:
                       description:
                         - Match IP destination address
+                      type: raw
                     destination-prefix-list:
                       description:
                         - Match IP destination prefixes in named list
